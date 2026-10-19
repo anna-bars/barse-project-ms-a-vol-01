@@ -6,7 +6,7 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 const BUCKET = process.env.RIVE_BUCKET || 'rive-assets';
-const FILE = process.env.RIVE_FILE || '2infams_a.riv';
+const FILE = process.env.RIVE_FILE || 'new_idle_ms_a.rev';
 
 export async function GET(request) {
   const h = request.headers;
